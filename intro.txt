@@ -1,0 +1,30 @@
+<tagname>content</tagname>
+
+<h1>About Page</h1>
+
+
+<p>Paragraph</p>
+
+
+<br/>(self closing) -> not used anymore
+
+<br>(Self closing in html5)
+
+<!DOCTYPE html>
+
+<html>
+
+    	<head>
+    <title>Page Title</title>	
+	(usually tells the css source/META for search links)
+	<head>
+<body>
+	<h1> This is a heading</h1>
+
+	<p>This is a paragraph.<p>
+	<p>this is another paragraph<p>
+<script>
+</script>
+</body>
+
+</html>
