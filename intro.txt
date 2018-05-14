@@ -96,10 +96,25 @@
 	NOT recommended to build forms with html only
 	you mostly do w/ php or another language
 
-	<form action="process.php" method="POST"/method="GET">
-	  <label>First Name</label>
-	  <input type="text" name="firstName">
-	  <label>Last Name</label>
-	  <input type="text" name="lastName">								
-	</form>		  				
+		<form action="process.php" method="POST"/method="GET">
+	  <div>
+	    <label>First Name</label>
+	    <input type="text" name="firstName">
+	  </div>
+	  <br>
+	  <div>
+	    <label>Last Name</label>
+	    <input type="text" name="lastName">
+	  </div>
+	<input type="email" name="lastName">
+		
+	<textarea> : textarea is closed like all other tags
+		you use it to type in text
+	  <div>
+	    <label>Message</label>
+	    <textarea name="Message"></textarea>
+	  </div>
+
+							
+	</form>			  				
 	
