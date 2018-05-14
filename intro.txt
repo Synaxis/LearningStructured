@@ -48,10 +48,10 @@
 
 	<a></a> links
 	<a href="">  href is an atribute
+
 	a href="http://google.com">
 	-> it will redirect to another page!
-	we don't want that . 
-'	we can use another atribute target="_blank"
+	we don't want that. we use one atribute target="_blank"
 	<a href="http://google.com" target="_blank"> anyText</a>
 
 	attributes = give more properties for each element
@@ -75,19 +75,28 @@
 	
 	// Table
 	<table>
-	      <thead>=> like another html page
+	       <thead>=> like another html page
 		  <tr> => tr means table row
-		    <th>Name</th> =>th means table heading
+		    <th>Name</th> :th = table heading
 		    <th>Age</th>
 		    <th>Email</th>
 		  </tr>		
 		</thead>
+
 		<tbody>
-		<tr>
-		//td means table DATA
+		  <tr>
+		//td: table DATA
 		<td>Caio</td>
 		<td>Julia</td>
-		</tr>
+		  </tr>
 		</tbody>
-
 	</table>
+
+	<!-- Forms -->
+	NOT recommended to build forms with html only
+	you mostly do w/ php or another language
+
+	<form action="process.php" method="POST"/method="GET">
+	  <label>First Name</label>
+	  <input type="text" name="first-name">						
+	</form>
