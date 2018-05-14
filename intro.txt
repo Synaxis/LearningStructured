@@ -28,3 +28,66 @@
 </body>
 
 </html>
+
+
+	-Inline Elements:
+	
+	- Doesn't start on new line
+	- take only the necessary width
+
+	Block elements:
+	- Start on a new line 
+	- take full width available
+
+	Block Level:<div>, <h1> - <h6>, <p>, <form>
+	Inline Level:<span>, <img>, <a>
+
+	
+	<em></em> 	  emphasize
+	<strong></strong> bold text
+
+	<a></a> links
+	<a href="">  href is an atribute
+	a href="http://google.com">
+	-> it will redirect to another page!
+	we don't want that . 
+'	we can use another atribute target="_blank"
+	<a href="http://google.com" target="_blank"> anyText</a>
+
+	attributes = give more properties for each element
+	example: <tagname attributename="atributevalue">content</tagname>
+	
+	// Lists
+	the ul
+	ul = UNORDERED list add simple point count
+	ol = ORDERED list -> add number count
+	<ul></ul>
+
+	-> <li> = List item
+
+	<ul>
+	    <li>List Item 1</li>
+	    <li>List Item 2</li>
+	    <li>List Item 3</li>
+	    <li>List Item 4</li>	
+	</ul>
+
+	
+	// Table
+	<table>
+	      <thead>=> like another html page
+		  <tr> => tr means table row
+		    <th>Name</th> =>th means table heading
+		    <th>Age</th>
+		    <th>Email</th>
+		  </tr>		
+		</thead>
+		<tbody>
+		<tr>
+		//td means table DATA
+		<td>Caio</td>
+		<td>Julia</td>
+		</tr>
+		</tbody>
+
+	</table>
