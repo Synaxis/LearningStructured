@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box model / margin</title>
+    <style>
+        /* CSS Reset (remove the default padding/margin etc) */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background: #f4f4f4;
+            border: 2px #777 solid;
+            width: 500px;
+
+            /* Padding on al sides */
+            padding: 20px;
+
+            /* Padding per side */
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+
+            /* Padding shorthand */
+            padding: 10px 20px 10px 20px;
+        }
+
+        .box p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>    
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione cupiditate impedit id esse tempore exercitationem, ab minus delectus ipsam.
+        </p>
+    </div>
+    <div class="box">
+        <h3>Box two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione cupiditate impedit id esse tempore exercitationem, ab minus delectus ipsam.
+        </p>
+    </div>
+</body>
+</html>
