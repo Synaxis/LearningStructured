@@ -37,3 +37,34 @@ p {
 #navbar a {
   color: white;
 }
+
+/* Align the logo to the left 
+Not using flexbox already
+*/
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px; /* push it down a bit */
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left; /* give the navbar feeling*/
+}
+
+/* the links inside the ul li */
+#navbar ul li a {
+  display: block;
+  padding: 20px; /* separate each one in a box object*/
+  text-align: center;
+
+}
+#navbar ul li a:hover,
+#navbar ul li a.current { /* apply to 'current' class at index.html*/
+  background: #444;
+  color: #f7c0aa;
+}
